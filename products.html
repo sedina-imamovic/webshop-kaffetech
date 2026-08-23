@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
     <title>Produkter</title>
   </head>
   <body>
@@ -18,8 +19,17 @@
         <a href="about.html">Om oss</a>
         <a href="contact.html">Kontakt</a>
         <a href="privacy.html">Integritetspolicy</a>
+        <button id="cart-button">Varukorg</button>
       </nav>
     </header>
+
+    <div id="cart">
+      <h2>Varukorg</h2>
+
+      <div id="cart-items"></div>
+
+      <button id="close-cart">Stäng</button>
+    </div>
 
     <main class="product-container">
       <h1 class="main-h1">Produkter</h1>
@@ -45,6 +55,17 @@
                 rostning.
               </p>
               <span class="price">35 kr</span>
+              <label for="quantity-kaffe">Antal:</label>
+              <input
+                type="number"
+                id="quantity-kaffe"
+                class="quantity"
+                min="1"
+                value="1"
+              />
+              <button class="buy-button" data-name="Kaffe">
+                Lägg i varukorg
+              </button>
               <span class="badge">Populär</span>
             </div>
           </article>
@@ -62,6 +83,17 @@
                 en krämig och balanserad smak med tydlig karaktär av espresso.
               </p>
               <span class="price">38 kr</span>
+              <label for="quantity-cappuccino">Antal:</label>
+              <input
+                type="number"
+                id="quantity-cappuccino"
+                class="quantity"
+                min="1"
+                value="1"
+              />
+              <button class="buy-button" data-name="Cappuccino">
+                Lägg i varukorg
+              </button>
             </div>
           </article>
 
@@ -78,6 +110,17 @@
                 mildare och sötare smak än en vanlig caffè latte.
               </p>
               <span class="price">43 kr</span>
+              <label for="quantity-latte">Antal:</label>
+              <input
+                type="number"
+                id="quantity-latte"
+                class="quantity"
+                min="1"
+                value="1"
+              />
+              <button class="buy-button" data-name="Latte Macchiato">
+                Lägg i varukorg
+              </button>
             </div>
           </article>
 
@@ -95,6 +138,17 @@
                 balanserad dryck.
               </p>
               <span class="price">40 kr</span>
+              <label for="quantity-cortado">Antal:</label>
+              <input
+                type="number"
+                id="quantity-cortado"
+                class="quantity"
+                min="1"
+                value="1"
+              />
+              <button class="buy-button" data-name="Cortado">
+                Lägg i varukorg
+              </button>
               <span class="badge">Nyhet</span>
             </div>
           </article>
@@ -112,6 +166,17 @@
                 ton av kaffe.
               </p>
               <span class="price">29 kr</span>
+              <label for="quantity-iskaffe">Antal:</label>
+              <input
+                type="number"
+                id="quantity-iskaffe"
+                class="quantity"
+                min="1"
+                value="1"
+              />
+              <button class="buy-button" data-name="Iskaffe">
+                Lägg i varukorg
+              </button>
               <span class="badge">Rea</span>
             </div>
           </article>
