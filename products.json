@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Kaffe",
+    "description": " Kaffe serveras vanligtvis varmt i en kopp och bryggs genom att varmt vatten passerar genom malet kaffe. Det har en fyllig och aromatisk smak som kan variera beroende på kaffebönor och rostning.",
+    "price": "35",
+    "image": "images/kaffe.png",
+    "imageAlt": "Klassiskt bryggkaffe i kopp serverat med en kanelbulle bredvid",
+    "badge": "Populär"
+  },
+  {
+    "id": 2,
+    "name": "Cappuccino",
+    "description": "Cappuccino består av espresso, varm mjölk och ett lager mjölkskum och serveras vanligtvis i en mindre kopp. Drycken har en krämig och balanserad smak med tydlig karaktär av espresso.",
+    "price": "38",
+    "image": "images/cappuccino.png",
+    "imageAlt": "En kopp cappuccino med krämigt mjölkskum och fin kaffekonst på toppen, serverad med ett färskt bakverk på ett fat bredvid",
+    "badge": ""
+  },
+  {
+    "id": 3,
+    "name": "Latte Macchiato",
+    "description": "Mild och krämig mjölkdryck med tre tydliga lager av varm mjölk, espresso och mjölkskum. Serveras i ett högt glas och har en mildare och sötare smak än en vanlig caffè latte.",
+    "price": "43",
+    "image": "images/latte-macchiato.png",
+    "imageAlt": "Latte macchiato i tre lager serverad med en liten kaka bredvid",
+    "badge": ""
+  },
+  {
+    "id": 4,
+    "name": "Cortado",
+    "description": "Cortado serveras vanligtvis i ett mindre glas eller en liten kopp och består av espresso och varm, lätt skummad mjölk. Den intensiva kaffesmaken rundas av av mjölken, vilket ger en balanserad dryck.",
+    "price": "40",
+    "image": "images/cortado.png",
+    "imageAlt": "En cortado i ett litet glas serverad med ett färskt bakverk",
+    "badge": "Nyhet"
+  },
+  {
+    "id": 5,
+    "name": "Iskaffe",
+    "description": "Iskaffe serveras kallt med is och består av kaffe och kall mjölk. Den har en mild, krämig och svalkande smak med en tydlig ton av kaffe.",
+    "price": "29",
+    "image": "images/iskaffe.png",
+    "imageAlt": "Ett glas svalkande iskaffe med isbitar och mjölk, serverat med en cookie bredvid",
+    "badge": "Rea"
+  }
+]

@@ -33,154 +33,17 @@
 
     <main class="product-container">
       <h1 class="main-h1">Produkter</h1>
+      
       <h2 class="page-subtitle">
         Ett litet bakverk ingår alltid till din beställning
       </h2>
+
       <p class="bakery-info">
         Bakverket kan skilja sig från bilden och även variera från dag till dag.
       </p>
+
       <section>
-        <div class="product-list">
-          <article class="product-item">
-            <img
-              src="images/kaffe.png"
-              alt="Klassiskt bryggkaffe i kopp serverat med en kanelbulle bredvid"
-            />
-            <div class="product-content">
-              <h3>Kaffe</h3>
-              <p>
-                Kaffe serveras vanligtvis varmt i en kopp och bryggs genom att
-                varmt vatten passerar genom malet kaffe. Det har en fyllig och
-                aromatisk smak som kan variera beroende på kaffebönor och
-                rostning.
-              </p>
-              <span class="price">35 kr</span>
-              <label for="quantity-kaffe">Antal:</label>
-              <input
-                type="number"
-                id="quantity-kaffe"
-                class="quantity"
-                min="1"
-                value="1"
-              />
-              <button class="buy-button" data-name="Kaffe">
-                Lägg i varukorg
-              </button>
-              <span class="badge">Populär</span>
-            </div>
-          </article>
-
-          <article class="product-item">
-            <img
-              src="images/cappuccino.png"
-              alt="En kopp cappuccino med krämigt mjölkskum och fin kaffekonst på toppen, serverad med ett färskt bakverk på ett fat bredvid"
-            />
-            <div class="product-content">
-              <h3>Cappuccino</h3>
-              <p>
-                Cappuccino består av espresso, varm mjölk och ett lager
-                mjölkskum och serveras vanligtvis i en mindre kopp. Drycken har
-                en krämig och balanserad smak med tydlig karaktär av espresso.
-              </p>
-              <span class="price">38 kr</span>
-              <label for="quantity-cappuccino">Antal:</label>
-              <input
-                type="number"
-                id="quantity-cappuccino"
-                class="quantity"
-                min="1"
-                value="1"
-              />
-              <button class="buy-button" data-name="Cappuccino">
-                Lägg i varukorg
-              </button>
-            </div>
-          </article>
-
-          <article class="product-item">
-            <img
-              src="images/latte-macchiato.png"
-              alt="Latte macchiato i tre lager serverad med en liten kaka bredvid"
-            />
-            <div class="product-content">
-              <h3>Latte Macchiato</h3>
-              <p>
-                Mild och krämig mjölkdryck med tre tydliga lager av varm mjölk,
-                espresso och mjölkskum. Serveras i ett högt glas och har en
-                mildare och sötare smak än en vanlig caffè latte.
-              </p>
-              <span class="price">43 kr</span>
-              <label for="quantity-latte">Antal:</label>
-              <input
-                type="number"
-                id="quantity-latte"
-                class="quantity"
-                min="1"
-                value="1"
-              />
-              <button class="buy-button" data-name="Latte Macchiato">
-                Lägg i varukorg
-              </button>
-            </div>
-          </article>
-
-          <article class="product-item">
-            <img
-              src="images/cortado.png"
-              alt="En cortado i ett litet glas serverad med ett färskt bakverk"
-            />
-            <div class="product-content">
-              <h3>Cortado</h3>
-              <p>
-                Cortado serveras vanligtvis i ett mindre glas eller en liten
-                kopp och består av espresso och varm, lätt skummad mjölk. Den
-                intensiva kaffesmaken rundas av av mjölken, vilket ger en
-                balanserad dryck.
-              </p>
-              <span class="price">40 kr</span>
-              <label for="quantity-cortado">Antal:</label>
-              <input
-                type="number"
-                id="quantity-cortado"
-                class="quantity"
-                min="1"
-                value="1"
-              />
-              <button class="buy-button" data-name="Cortado">
-                Lägg i varukorg
-              </button>
-              <span class="badge">Nyhet</span>
-            </div>
-          </article>
-
-          <article class="product-item">
-            <img
-              src="images/iskaffe.png"
-              alt="Ett glas svalkande iskaffe med isbitar och mjölk, serverat med en cookie bredvid"
-            />
-            <div class="product-content">
-              <h3>Iskaffe</h3>
-              <p>
-                Iskaffe serveras kallt med is och består av kaffe och kall
-                mjölk. Den har en mild, krämig och svalkande smak med en tydlig
-                ton av kaffe.
-              </p>
-              <span class="price">29 kr</span>
-              <label for="quantity-iskaffe">Antal:</label>
-              <input
-                type="number"
-                id="quantity-iskaffe"
-                class="quantity"
-                min="1"
-                value="1"
-              />
-              <button class="buy-button" data-name="Iskaffe">
-                Lägg i varukorg
-              </button>
-              <span class="badge">Rea</span>
-            </div>
-          </article>
-        </div>
+        <div id="productList" class="product-list"></div>
       </section>
     </main>
 

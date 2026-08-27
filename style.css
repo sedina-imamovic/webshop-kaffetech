@@ -536,9 +536,9 @@ footer a:focus {
 }
 
 .quantity {
-  width: 60px;
+   width: 75px;
   padding: 8px;
-  margin: 10px 5px 10px 0;
+  margin: 10px 6px 10px 0;
   border: 1px solid #6f4e37;
   border-radius: 6px;
   font-size: 1rem;
@@ -556,4 +556,11 @@ footer a:focus {
 
 .buy-button:hover {
   opacity: 0.85;
+}
+
+.quantity-label {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 6px;
+  font-weight: 500;
 }
