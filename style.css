@@ -8,6 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #222222;
   margin: 0;
+  background-color: #f5eee4;
 }
 
 h1,
@@ -58,7 +59,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px clamp(15px, 3vw, 30px);
-  background-color: #f8f9fa;
+  background-color: #efe3d2;
   gap: 15px;
 }
 
@@ -168,7 +169,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 15px clamp(15px, 3vw, 30px);
-  background-color: #f8f9fa;
+  background-color: #efe3d2;
   border-top: 1px solid #e9ecef;
   font-size: 0.9rem;
   color: #222222;
@@ -267,7 +268,7 @@ footer a:focus {
   width: 33.333%;
   box-sizing: border-box;
   padding: 15px;
-  background: #ffffff;
+  background: #fffaf3;
   border: 1px solid #e0e0e0;
   border-radius: 14px;
   overflow: hidden;
